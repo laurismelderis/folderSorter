@@ -3,13 +3,8 @@
 #include <sstream>
 #include <ctype.h>
 #include "boost/filesystem.hpp"
-#include <boost/algorithm/string.hpp>
+#include <boost/algorithm/string.hpp>.
 
-enum FileType {
-	PDF,
-	DOCX,
-	ZIP
-};
 
 class Directory {
 public:
@@ -102,7 +97,7 @@ int main()
 	// Change x in ShowWindow(window, x) to
 	HWND window;
 	window = FindWindowA("ConsoleWindowClass", NULL);
-	ShowWindow(window, 1);
+	ShowWindow(window, 0);
 
 	Directory currentDirectory("Downloads", "C:\\Users\\Lauris M");
 
